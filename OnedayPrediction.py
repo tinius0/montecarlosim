@@ -68,6 +68,16 @@ for i in range(SIMULATIONS):
         )
 
 #RESULTS
+log_results= np.log(np.array(results) / S0)
+volatility = np.std(log_results)
+mean_return= np.mean(log_results)
+
+#should be moved to result block when done changing
+print("\n+Log return:")
+print(f"{mean_return:.2%}")
+print("\nVolatility:")
+print(f"{volatility:.2%}")
+
 results = np.array(results, dtype=float)
 
 prob_up = np.mean(results > S0)
