@@ -1,7 +1,5 @@
 # Monte Carlo Stock Risk Simulator
 
-A quantitative finance project that simulates possible future stock price paths using **Monte Carlo simulation with fat-tailed distributions**.
-
 The model analyzes risk, volatility, drawdowns, and price probabilities using historical market data from Yahoo Finance.
 
 The simulation produces a comprehensive visualization showing:
