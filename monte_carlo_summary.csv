@@ -1,0 +1,2 @@
+Ticker,CurrentPrice,ExpectedPrice,ProbUp_%,ProbDown_%,VaR_95,CVaR_95,AvgMaxDrawdown_%,SharpeRatio,SortinoRatio
+EQNR.OL,313.1,391.95,72.16,27.84,86.06,112.31,-24.59,0.043,0.064
